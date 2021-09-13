@@ -5,7 +5,9 @@ day by day study of chanstouch
 chanstouch = chan(who is me) + 's + touch
 
 chanstouch means what I've reflected.
+
 Thoughts, codes, visualizations, pictures... whatever I've touched.
+
 
 Hope my touch touch the world.
 
