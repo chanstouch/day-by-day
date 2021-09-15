@@ -29,8 +29,8 @@
   ​    `['Just', 'then', ',', 'Mr.', 'Buchet', ',', 'Charlie', "'s", 'father', ',', 'came', 'into', 'the', 'room', '.', 'But', 'did', "n't", 'say', 'anyting', '.']`
 
   word_tokenize는 Didn't를 Did와 n't로 분리하였으며, 반면 Charlie's는 Charlie와 's로 분리
-
-  - wordPunctTokenizer
+  
+- wordPunctTokenizer
 
     ```python
     from nltk.tokenize import WordPunctTokenizer
@@ -41,7 +41,7 @@
 
     WordPunctTokenizer는 구두점을 별도로 분류하는 특징을 갖고 있기 때문에, word_tokenize와는 달리 Didn't를 Did과 '와 n't로 분리, 마찬가지로 Charlie's를 Charlie와 's로 분리.
 
-  - keras
+- keras
 
     ```python
     from tensorflow.keras.preprocessing.text import text_to_word_sequence
